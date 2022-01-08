@@ -17,7 +17,7 @@ init(convert=True) #colorama
 def copy(thing_to_copy):                        
     pyperclip.copy(thing_to_copy)
 
-a = pd.read_csv("C:\\Users\\Madhav Bhatnagar\\Downloads\\Password Habits pakka final.csv\\Password Habits.csv", skiprows=[0], header=None)
+a = pd.read_csv("C:\\Users\\Madhav Bhatnagar\\Downloads\\Password Habits pakka final.csv\\Password Habits.csv", skiprows=[0], header=None)  # change the location of the CSV file here, note: add the double \\
 a.columns = ["age", "accounts", "reuse", "change", "2FA", "store", "better", "misc"]
 
 a = pd.DataFrame(a, index = None)
