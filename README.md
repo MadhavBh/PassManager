@@ -1,6 +1,6 @@
 Readme file for passmanager>>
 
-This is a project made by Madhav Bhatnagar for a school project
+This is a very janky project made by Madhav Bhatnagar for a school project
 including mysql integration and datavisualisation 
 
 
