@@ -4,6 +4,7 @@ import cryptography.fernet as fernet
 import mysql.connector as m
 import time as t
 from mysql.connector import cursor
+import os 
 
 def generate_key():
     key = fernet.Fernet.generate_key()
@@ -72,11 +73,17 @@ def masterpass():
     print("=>establishing masterpassword in the database.......\n")
     t.sleep(3)
 
+def modules():
+    os.system('cmd /c "pip install colorama mysql time pandas nltk getpass pyperclip logging matplotlib"')
+    print("installing modules.....")
+    t.sleep(5)
+
 if __name__ == "__main__":
     generate_key()
     database()
     tables()
     masterpass()
+    modules()
 
 
 print("\n CONGRATULATIONS, THE SETUP IS COMPLETE, YOU CAN NOW POWER UP THE PASSMANAGER AND USE! \n")
