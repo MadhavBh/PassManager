@@ -7,6 +7,8 @@ to run the project here are some pre-requisistes:
 
   Must have python installed(duh)
   
+  install the required modules.
+  
   Must have mysql installed 
   
   configure your mysql server with username as "root" and password also "root"
